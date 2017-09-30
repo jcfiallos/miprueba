@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "# Hello, world!\n#\n# This is an example function named 'hello'\n# which prints 'Hello, world!'.\n#\n# You can learn more about package authoring with RStudio at:\n#\n#   http://r-pkgs.had.co.nz/\n#\n# Some useful keyboard shortcuts for package authoring:\n#\n#   Build and Reload Package:  'Ctrl + Shift + B'\n#   Check Package:             'Ctrl + Shift + E'\n#   Test Package:              'Ctrl + Shift + T'\n\nlibrary(shiny)\nsource('C:/Users/juank/Documents/GitHub/miprueba/R/ui.R')\nsource('C:/Users/juank/Documents/GitHub/miprueba/R/server.R')\n\nanalisseries <- function()\n{\nrunApp(shinyApp(ui = ui, server = server))\n}\n\n",
+    "created" : 1506747783468.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3659418898",
+    "id" : "7330CE9A",
+    "lastKnownWriteTime" : 1506748577,
+    "last_content_update" : 1506748577674,
+    "path" : "~/GitHub/miprueba/R/hello.R",
+    "project_path" : "R/hello.R",
+    "properties" : {
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
